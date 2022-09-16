@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+	"mixed",
+	"rs-utils",
+	"lifecycle",
+	"retry",
+]
