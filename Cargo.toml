@@ -5,4 +5,5 @@ members = [
 	"rs-utils",
 	"lifecycle",
 	"retry",
+	"macros",
 ]
