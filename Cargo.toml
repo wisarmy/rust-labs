@@ -6,4 +6,5 @@ members = [
 	"lifecycle",
 	"retry",
 	"macros",
+	"rust-libp2p-tutorial",
 ]
