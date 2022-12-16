@@ -7,4 +7,6 @@ members = [
 	"retry",
 	"macros",
 	"rust-libp2p-tutorial",
+	"tui-demo",
+	"yew-app",
 ]
