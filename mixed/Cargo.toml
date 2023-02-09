@@ -10,6 +10,7 @@ anyhow = "1.0.65"
 chrono = "0.4.22"
 cron = "0.12.0"
 crossbeam-utils = "0.8.12"
+pin-project = "1.0.12"
 regex = "1.6.0"
 tokio = { version = "1.21.2", features = ["full"] }
 tokio-util = { version = "0.7.4", features = ["codec"] }
