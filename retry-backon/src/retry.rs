@@ -56,11 +56,11 @@ where
             state: State::Idle,
         }
     }
-    fn when(mut self, retryable: fn(&E) -> bool) -> Self {
+    pub fn when(mut self, retryable: fn(&E) -> bool) -> Self {
         self.retryable = retryable;
         self
     }
-    fn notify(mut self, notify: fn(&E, Duration)) -> Self {
+    pub fn notify(mut self, notify: fn(&E, Duration)) -> Self {
         self.notify = notify;
         self
     }
